@@ -2,24 +2,24 @@
 import image from "./images/images.jpg";
 
 function Heading(props) {
-    return <h1>{props.text}</h1>
+  return <h1>{props.text}</h1>;
 }
 function Paragraph(props) {
-    return <p>{props.text}</p>
+  return <p>{props.text}</p>;
 }
 function ImgUrl(props) {
-    // eslint-disable-next-line jsx-a11y/img-redundant-alt
-    return <img style={{height: "300px"}} src={image} alt="image test"/>
+  // eslint-disable-next-line jsx-a11y/img-redundant-alt
+  return <img style={{ height: "300px" }} src={image} alt="image test" />;
 }
 
 const Section = (props) => {
-    return (
-        <>
-            <Heading text = {props.title}/>
-            <Paragraph text = {props.content}/>
-            <ImgUrl url={props.url}/>
-        </>
-    );
-}
+  return (
+    <>
+      <Heading text={props.title} />
+      <Paragraph text={props.content} />
+      <ImgUrl url={props.url} />
+    </>
+  );
+};
 
 export default Section;

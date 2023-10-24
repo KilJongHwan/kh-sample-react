@@ -1,10 +1,10 @@
-import "./App.css"
+import "./App.css";
 // import WelcomeProp from "./WelcomeProps";
 // import Section from "./Section";
-import MyComponent from "./Mycomponent";
+// import MyComponent from "./Mycomponent";
+import Say from "./Say";
 
 function App() {
-  
   return (
     <>
       {/* <WelcomeProp name = "Jessy" addr="NewYork" age = {22}/>
@@ -13,8 +13,11 @@ function App() {
 
       {/* <Section title="Section 1번" content="This is the content for section 1" />
       <Section title="Section 2번" content="This is the content for section 2"/> */}
-      <MyComponent name="James" age={20}/>
 
+      {/* <MyComponent name="James" age={20}>
+        Hi XD
+      </MyComponent> */}
+      <Say />
     </>
   );
 }
