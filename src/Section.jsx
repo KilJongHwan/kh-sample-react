@@ -7,7 +7,7 @@ function Heading(props) {
 function Paragraph(props) {
   return <p>{props.text}</p>;
 }
-function ImgUrl(props) {
+function ImgUrl() {
   // eslint-disable-next-line jsx-a11y/img-redundant-alt
   return <img style={{ height: "300px" }} src={image} alt="image test" />;
 }

@@ -2,7 +2,8 @@ import "./App.css";
 // import WelcomeProp from "./WelcomeProps";
 // import Section from "./Section";
 // import MyComponent from "./Mycomponent";
-import Say from "./Say";
+// import Say from "./Say";
+import Clock from "./Clock";
 
 function App() {
   return (
@@ -11,13 +12,20 @@ function App() {
       <WelcomeProp name = "Amy" addr="LosAngeles" age = {25}/>
       <WelcomeProp name = "Kanna" addr="Tokyo" age = {18}/> */}
 
-      {/* <Section title="Section 1번" content="This is the content for section 1" />
-      <Section title="Section 2번" content="This is the content for section 2"/> */}
+      {/* <Section
+        title="Section 1번"
+        content="This is the content for section 1"
+      />
+      <Section
+        title="Section 2번"
+        content="This is the content for section 2"
+      /> */}
 
       {/* <MyComponent name="James" age={20}>
         Hi XD
       </MyComponent> */}
-      <Say />
+      {/* <Say /> */}
+      <Clock />
     </>
   );
 }
