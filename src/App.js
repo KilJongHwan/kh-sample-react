@@ -5,7 +5,9 @@ import "./App.css";
 // import Say from "./Say";
 // import Clock from "./Clock";
 // import EventPractice from "./onChange";
-import EventHandler from "./EventHandler";
+// import EventHandler from "./EventHandler";
+// import FruitSelect from "./FruitSelect";
+import RadioButton from "./Radiobox";
 
 function App() {
   return (
@@ -29,7 +31,9 @@ function App() {
       {/* <Say /> */}
       {/* <Clock /> */}
       {/* <EventPractice /> */}
-      <EventHandler />
+      {/* <EventHandler /> */}
+      {/* <FruitSelect /> */}
+      <RadioButton />
     </>
   );
 }
