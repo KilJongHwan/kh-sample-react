@@ -3,7 +3,8 @@ import "./App.css";
 // import Section from "./Section";
 // import MyComponent from "./Mycomponent";
 // import Say from "./Say";
-import Clock from "./Clock";
+// import Clock from "./Clock";
+import EventPractice from "./onChange";
 
 function App() {
   return (
@@ -25,7 +26,8 @@ function App() {
         Hi XD
       </MyComponent> */}
       {/* <Say /> */}
-      <Clock />
+      {/* <Clock /> */}
+      <EventPractice />
     </>
   );
 }
