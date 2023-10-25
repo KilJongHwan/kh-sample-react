@@ -4,7 +4,8 @@ import "./App.css";
 // import MyComponent from "./Mycomponent";
 // import Say from "./Say";
 // import Clock from "./Clock";
-import EventPractice from "./onChange";
+// import EventPractice from "./onChange";
+import EventHandler from "./EventHandler";
 
 function App() {
   return (
@@ -27,7 +28,8 @@ function App() {
       </MyComponent> */}
       {/* <Say /> */}
       {/* <Clock /> */}
-      <EventPractice />
+      {/* <EventPractice /> */}
+      <EventHandler />
     </>
   );
 }
