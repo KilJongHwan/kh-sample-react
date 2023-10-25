@@ -9,7 +9,8 @@ import "./App.css";
 // import FruitSelect from "./FruitSelect";
 // import RadioButton from "./Radiobox";
 // import Table from "./Table";
-import TableMap from "./TableMap";
+// import TableMap from "./TableMap";
+import CreateRef from "./UserRef";
 
 function App() {
   return (
@@ -37,7 +38,8 @@ function App() {
       {/* <FruitSelect /> */}
       {/* <RadioButton /> */}
       {/* <Table /> */}
-      <TableMap />
+      {/* <TableMap /> */}
+      <CreateRef />
     </>
   );
 }
