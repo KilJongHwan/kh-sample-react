@@ -8,7 +8,8 @@ import "./App.css";
 // import EventHandler from "./EventHandler";
 // import FruitSelect from "./FruitSelect";
 // import RadioButton from "./Radiobox";
-import Table from "./Table";
+// import Table from "./Table";
+import TableMap from "./TableMap";
 
 function App() {
   return (
@@ -35,7 +36,8 @@ function App() {
       {/* <EventHandler /> */}
       {/* <FruitSelect /> */}
       {/* <RadioButton /> */}
-      <Table />
+      {/* <Table /> */}
+      <TableMap />
     </>
   );
 }
