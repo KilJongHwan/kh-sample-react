@@ -3,6 +3,7 @@ import React, { useState } from "react";
 const CompanyInfo = () => {
   const [info, setInfo] = useState({
     name: "",
+    position: "",
     companyName: "",
     companyAddr: "",
     email: "",
@@ -24,6 +25,7 @@ const CompanyInfo = () => {
     setInfoList((prevInfoList) => [...prevInfoList, info]);
     setInfo({
       name: "",
+      position: "",
       companyName: "",
       companyAddr: "",
       email: "",
@@ -40,6 +42,14 @@ const CompanyInfo = () => {
         value={info.name}
         onChange={onChange}
         placeholder="Name"
+      />
+      <br />
+      <input
+        type="text"
+        name="position"
+        value={info.position}
+        onChange={onChange}
+        placeholder="Position"
       />
       <br />
       <input
@@ -79,6 +89,8 @@ const CompanyInfo = () => {
         {infoList.map((item, index) => (
           <li key={index}>
             <b>Name:</b> {item.name}
+            <br />
+            <b>Position</b> {item.position}
             <br />
             <b>Company:</b> {item.companyName}
             <br />
