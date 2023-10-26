@@ -14,3 +14,16 @@ td {
 h1 {
   color: royalblue;
 }
+
+.title-name {
+  color: royalblue;
+  font-size: 2em;
+  background-color: beige;
+}
+.del-guide {
+  color: red;
+  font-style: italic;
+}
+li {
+  list-style: none;
+}
