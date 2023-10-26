@@ -10,7 +10,8 @@ import "./App.css";
 // import RadioButton from "./Radiobox";
 // import Table from "./Table";
 // import TableMap from "./TableMap";
-import CreateRef from "./UserRef";
+// import CreateRef from "./UserRef";
+import UserList from "./UserList";
 
 function App() {
   return (
@@ -39,7 +40,8 @@ function App() {
       {/* <RadioButton /> */}
       {/* <Table /> */}
       {/* <TableMap /> */}
-      <CreateRef />
+      {/* <CreateRef /> */}
+      <UserList />
     </>
   );
 }

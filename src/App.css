@@ -3,3 +3,14 @@
   color: darkgreen;
   font-weight: bold;
 }
+
+table {
+  border-collapse: collapse;
+}
+th,
+td {
+  border: 1px solid black;
+}
+h1 {
+  color: royalblue;
+}
