@@ -7,7 +7,6 @@
 //     </>
 //   );
 // };
-import App from "./App.css";
 
 const UserList = () => {
   const users = [
