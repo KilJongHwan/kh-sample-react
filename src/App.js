@@ -13,7 +13,8 @@ import "./App.css";
 // import CreateRef from "./UserRef";
 // import UserList from "./UserList";
 // import TodoList from "./TodoList";
-import Counter from "./Hooks";
+// import Counter from "./Hooks";
+import CompanyInfo from "./Hooks2";
 
 function App() {
   return (
@@ -45,7 +46,8 @@ function App() {
       {/* <CreateRef /> */}
       {/* <UserList /> */}
       {/* <TodoList /> */}
-      <Counter />
+      {/* <Counter /> */}
+      <CompanyInfo />
     </>
   );
 }
