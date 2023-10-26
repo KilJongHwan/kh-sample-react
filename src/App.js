@@ -14,8 +14,8 @@ import "./App.css";
 // import UserList from "./UserList";
 // import TodoList from "./TodoList";
 // import Counter from "./Hooks";
-// import CompanyInfo from "./Hooks2";
-import MemberInfo from "./Hooks3";
+// import CompanyInfo from "./CompanyInfo";
+import MemberInfo from "./Hooks2";
 
 function App() {
   return (
