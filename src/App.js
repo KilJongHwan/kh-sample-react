@@ -16,7 +16,8 @@ import "./App.css";
 // import Counter from "./Hooks";
 // import CompanyInfo from "./CompanyInfo";
 // import MemberInfo from "./Hooks2";
-import Counter2 from "./Hooks3";
+// import Counter2 from "./Hooks3";
+import Average from "./Hooks4";
 
 function App() {
   return (
@@ -51,7 +52,8 @@ function App() {
       {/* <Counter /> */}
       {/* <CompanyInfo /> */}
       {/* <MemberInfo /> */}
-      <Counter2 />
+      {/* <Counter2 /> */}
+      <Average />
     </>
   );
 }
